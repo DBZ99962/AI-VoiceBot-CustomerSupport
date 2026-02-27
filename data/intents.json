@@ -1,0 +1,234 @@
+{
+  "intents": [
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Track my order",
+        "What is the status of my order?",
+        "Has my order shipped?",
+        "When will my order arrive?",
+        "Order tracking",
+        "Check order status"
+      ],
+      "responses": [
+        "Please provide your order ID and I will check the status for you.",
+        "You can track your order using the tracking number sent to your email.",
+        "Your order is currently being processed. Please allow 2-3 business days for delivery."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "I want to cancel my order",
+        "Cancel my purchase",
+        "How do I cancel?",
+        "Please cancel order",
+        "I need to cancel",
+        "Stop my order",
+        "Cancel order request"
+      ],
+      "responses": [
+        "I can help you cancel your order. Please provide your order ID.",
+        "To cancel your order, please share your order number and I will process the cancellation.",
+        "Cancellations are possible within 24 hours of placing the order. Please provide your order ID."
+      ]
+    },
+    {
+      "tag": "refund_request",
+      "patterns": [
+        "I want a refund",
+        "How do I get a refund?",
+        "Request refund",
+        "Money back please",
+        "Refund my payment",
+        "I need my money back",
+        "Process a refund"
+      ],
+      "responses": [
+        "Refunds are processed within 5-7 business days. Please share your order ID.",
+        "I will initiate a refund for you. Please provide your order number and reason for refund.",
+        "Your refund request has been noted. Our team will process it within 3-5 business days."
+      ]
+    },
+    {
+      "tag": "subscription_inquiry",
+      "patterns": [
+        "Tell me about subscription plans",
+        "What are your subscription options?",
+        "How much does subscription cost?",
+        "Subscription pricing",
+        "Monthly plan details",
+        "Annual subscription",
+        "Upgrade my plan"
+      ],
+      "responses": [
+        "We offer Basic, Standard, and Premium subscription plans. Visit our pricing page for details.",
+        "Our subscription plans start at $9.99/month. I can walk you through the available options.",
+        "You can upgrade your plan anytime from your account dashboard under Subscription Settings."
+      ]
+    },
+    {
+      "tag": "cancel_subscription",
+      "patterns": [
+        "Cancel my subscription",
+        "I want to unsubscribe",
+        "Stop my subscription",
+        "End my membership",
+        "How to cancel subscription",
+        "Unsubscribe me",
+        "Terminate my plan"
+      ],
+      "responses": [
+        "I am sorry to see you go. You can cancel your subscription from Account > Subscription > Cancel Plan.",
+        "To cancel your subscription, please log in and go to Settings > Subscription > Cancel.",
+        "Your subscription has been scheduled for cancellation at the end of the current billing cycle."
+      ]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": [
+        "My payment failed",
+        "Payment not going through",
+        "Card declined",
+        "Billing issue",
+        "I was charged incorrectly",
+        "Double charged",
+        "Payment problem"
+      ],
+      "responses": [
+        "I am sorry for the payment issue. Please check your card details and try again.",
+        "If your card was declined, please verify the billing address matches your bank records.",
+        "For incorrect charges, please share your transaction ID and we will resolve it immediately."
+      ]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "Tell me about your products",
+        "What products do you offer?",
+        "Product information",
+        "Do you sell electronics?",
+        "What items are available?",
+        "Show me your catalog",
+        "Product details"
+      ],
+      "responses": [
+        "We offer a wide range of products. Please visit our website catalog for full details.",
+        "Our product range includes electronics, clothing, and home goods. What are you looking for?",
+        "I can help you find the right product. Could you tell me what category you are interested in?"
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "How do I return an item?",
+        "Return instructions",
+        "Can I return a product?",
+        "Return process",
+        "How long do I have to return?",
+        "Return policy details"
+      ],
+      "responses": [
+        "Our return policy allows returns within 30 days of purchase. Items must be unused and in original packaging.",
+        "To initiate a return, go to My Orders, select the item, and click Return Item.",
+        "You can return most items within 30 days for a full refund or exchange."
+      ]
+    },
+    {
+      "tag": "account_issue",
+      "patterns": [
+        "I cannot log in",
+        "Forgot my password",
+        "Account locked",
+        "Reset my password",
+        "I cannot access my account",
+        "Account problem",
+        "Login help"
+      ],
+      "responses": [
+        "Click Forgot Password on the login page and follow the instructions sent to your email.",
+        "If your account is locked, please wait 30 minutes or contact support for immediate assistance.",
+        "I can help you reset your password. Please confirm your registered email address."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "What are your shipping options?",
+        "How long does shipping take?",
+        "Shipping cost",
+        "Do you offer free shipping?",
+        "Express shipping",
+        "International shipping",
+        "Delivery time"
+      ],
+      "responses": [
+        "Standard shipping takes 5-7 business days. Express shipping is available for 2-3 business days.",
+        "We offer free shipping on orders above $50. Express and overnight options are also available.",
+        "International shipping is available to over 50 countries. Delivery times vary by location."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I am not happy with my order",
+        "I have a complaint",
+        "This is unacceptable",
+        "I received a damaged item",
+        "Wrong item delivered",
+        "Poor service",
+        "I want to complain"
+      ],
+      "responses": [
+        "I sincerely apologize for your experience. Please describe the issue so I can assist you promptly.",
+        "I am sorry to hear about the damaged item. Please share a photo and your order ID for a quick resolution.",
+        "Your complaint has been registered. Our team will contact you within 24 hours with a resolution."
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Howdy",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! Welcome to Customer Support. How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Good day! I am your virtual support assistant. What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thank you",
+        "Thanks for your help",
+        "That will be all",
+        "I am done"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Thank you for contacting support. Take care!",
+        "It was my pleasure helping you. Goodbye!"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I am sorry, I did not understand that. Could you please rephrase your query?",
+        "I am not sure how to help with that. Please contact our support team at support@example.com.",
+        "That is outside my current knowledge. Let me connect you with a human agent."
+      ]
+    }
+  ]
+}
